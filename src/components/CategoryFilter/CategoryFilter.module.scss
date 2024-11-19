@@ -1,0 +1,19 @@
+.filters {
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    button {
+        padding: 8px 12px;
+        border: none;
+        background-color: #f0f0f0;
+        cursor: pointer;
+
+        &.active {
+            font-weight: bold;
+            background-color: #ddd;
+        }
+    }
+}

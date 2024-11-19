@@ -1,0 +1,19 @@
+.favorites {
+    text-align: center;
+
+    &__cards {
+        padding: 30px 25px 50px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__li {
+        list-style-type: none;
+    }
+
+    &__instructions {
+        width: 300px;
+    }
+}
