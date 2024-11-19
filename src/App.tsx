@@ -5,7 +5,7 @@ import FavoritesPage from "./pages/FavoritesPage/FavoritesPage";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => (
-    <Router>
+    <Router basename="/Recipe-evaluation">
         <Navbar />
         <Routes>
             <Route path="/" element={<AllRecipesPage />} />
